@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+article{
+	background-color: #C2C6D0;
+	text-align: center;
+	padding: 0;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+h3{
+	font-family: 'PT Sans Caption', sans-serif;
+	color: #3F5487;
+	font-size: 4em;
+	margin: 0;
+	padding: 8vh;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+h2{
+	font-family: 'PT Sans Caption', sans-serif;
+	color: #3F5487;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+article iframe{
+	margin: 0;
+	padding: 0;
+}
+
+.button{
+	background-color: #AEB3BC;
+	padding: 1vh;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	border-radius: 25px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	font-size: 1.3em;
+	font-family: 'Rubik', sans-serif;
+	transition: 0.5s all;
+	opacity: 1;
+}
+
+.button:hover{
+	opacity: 0.5
+}
+
+.content_col{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+
+.content_col span{
+	flex-basis: 0;
+	flex-grow: 4;
+}
+
+.content_col h4{
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-size: 2.5em;
+	margin: 3vh;
+}
+
+.content_col .buttons{
+	padding-bottom: 5vh;
+}
+
+.content_col .img_r{
+	flex-basis: 0;
+	flex-grow: 5;
+	background-image: url("../images/compressed/contacts_pg.jpg");
+	background-position: center;
+	background-size: cover;
+	min-height: 80vh;
+	max-height: 100vh;
+}
+
+.red_block{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	padding: 3vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	background-color: #AEB3BC;
+	align-items: center;
+	text-align: center;
+	margin: 3vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+.red_block a{
+	text-decoration: none;
+	color: #3F5487;
+}
+
+.red_block i{
+	color: #A64D4D;
+	font-size: 5em;
+	flex-basis: 0;
+	flex-grow: 2;
+	text-shadow: 3px 3px 4px black;
+}
+
+.red_block h3{
+	color: black; 
+	font-size: 1.6em;
+}
+
+@media screen and (max-width: 900px), (max-device-width: 900px){
+	.content_col{
+		flex-direction: column;
+	}
+	
+	.img_r{
+		flex-basis: auto;
+		width: 100%;
+	}
+	
+	article h3{
+		font-size: 2.8em;
+		padding: 1vh;
+	}
+	
+	.content_col h4{
+		font-size: 1.7em;
+	}
+	
+	.red_block{
+		flex-direction: column;
+	}
+	
+	.red_block h3{
+		font-size: 1.2em;
+	}
+	
+	.red_block i{
+		padding: 3vw;
+	}
+	
+	.content_col span{
+		padding-bottom: 3vh;
+	}
+}

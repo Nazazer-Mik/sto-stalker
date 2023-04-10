@@ -1,0 +1,1 @@
+First version of STO STALKER website designed for my father with HTML/CSS.
